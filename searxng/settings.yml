@@ -1,0 +1,12 @@
+use_default_settings: true
+
+server:
+  port: 8080
+  bind_address: 0.0.0.0
+  secret_key: "asteria-dev-key"
+
+search:
+  safe_search: 0
+  formats:
+    - html
+    - json
